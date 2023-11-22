@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* tailwind.css */
+@layer tailwind-base {
+    @tailwind base;
+  }
+  
+  @layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+  }
+
+*{
+    font-family: 'Inconsolata', monospace;
+}
